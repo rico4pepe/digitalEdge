@@ -1,6 +1,6 @@
 <?php
 
-class HttpClient
+class MyHttpClient
 {
     public function request($method, $url, $headers, $params = [])
     {

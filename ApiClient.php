@@ -2,16 +2,16 @@
 
 class ApiClient
 {
-    private $httpClient;
+    private $myhttpClient;
     private $auth;
     private $currencyId;
     private $currencyCode;
     private $logger;
     private $config;
 
-    public function __construct(HttpClient $httpClient, Authentication $auth, Logger $logger, Config $config)
+    public function __construct(MyHttpClient $myhttpClient, Authentication $auth, Logger $logger, Config $config)
     {
-        $this->httpClient = $httpClient;
+        $this->myhttpClient = $myhttpClient;
         $this->auth = $auth;
         $this->logger = $logger;
         $this->config = $config;
@@ -50,7 +50,7 @@ class ApiClient
                 $this->logger->log("Request payload: " . json_encode($data));
             }
 
-            $response = $this->httpClient->request($method, $baseUrl . '/' . $endpoint, $headers, $data);
+            $response = $this->myhttpClient->request($method, $baseUrl . '/' . $endpoint, $headers, $data);
 
             $this->logger->log("Response: " . json_encode($response));
 
