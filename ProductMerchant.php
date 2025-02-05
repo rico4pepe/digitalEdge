@@ -16,15 +16,16 @@ $myhttpClient = new MyHttpClient();
 $apiKey = $config->get('api.apiKey');
 $privateKeyPath = $config->get('api.privateKeyPath');
 
-$auth = new Authentication($apiKey, $privateKeyPath, $logger );
+$auth = new Authentication($apiKey, $privateKeyPath, $logger);
 $apiClient = new ApiClient($myhttpClient, $auth, $logger, $config);
 
-// Initialize merchantCode, currencyId, and currencyCode from the request (with default values)
-$merchantCode = isset($_GET['merchantCode']) ? $_GET['merchantCode'] : '12345';
-$currencyId = isset($_GET['currencyId']) ? $_GET['currencyId'] : null;
-$currencyCode = isset($_GET['currencyCode']) ? $_GET['currencyCode'] : null;
+// Initialize parameters from the request (with default values)
+$merchantCode = $_GET['merchantCode'] ?? '12345';
+$currencyId = $_GET['currencyId'] ?? null;
+$currencyCode = $_GET['currencyCode'] ?? null;
 
 $requestData = [
+    'merchantCode' => $merchantCode, // Add merchantCode to the data array
     'currencyId' => $currencyId,
     'currencyCode' => $currencyCode
 ];

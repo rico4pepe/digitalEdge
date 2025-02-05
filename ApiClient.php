@@ -1,5 +1,4 @@
 <?php
-
 class ApiClient
 {
     private $httpClient;
@@ -16,7 +15,6 @@ class ApiClient
         $this->logger = $logger;
         $this->config = $config;
 
-        // Optionally retrieve currencyId and currencyCode from config or query parameters
         $this->currencyId = $this->config->get('api.currencyId');
         $this->currencyCode = $this->config->get('api.currencyCode');
     }
@@ -30,43 +28,72 @@ class ApiClient
             $nonce = $this->auth->generateNonce();
             $signature = $this->auth->generateSignature($nonce);
 
+            // Build headers array
             $headers = [
                 'X-Api-Key' => $apiKey,
                 'X-Nonce' => $nonce,
                 'X-Signature' => $signature,
-                'Content-Type' => 'application/json'
+                'Content-Type' => 'application/json',
+                'Accept' => 'application/json'
             ];
 
-            // Add currency details from query parameters if provided
+            // Handle URL parameters
+            $processedEndpoint = $endpoint;
+            if (isset($data['merchantCode'])) {
+                $processedEndpoint = str_replace('{$merchantCode}', $data['merchantCode'], $processedEndpoint);
+                unset($data['merchantCode']); // Remove from data after using it
+            }
+
+            // Add optional currency headers if provided
             if (!empty($data['currencyId'])) {
                 $headers['X-Currency-Id'] = $data['currencyId'];
+                unset($data['currencyId']); // Remove from data to avoid sending in body
             }
 
             if (!empty($data['currencyCode'])) {
                 $headers['X-Currency-Code'] = $data['currencyCode'];
+                unset($data['currencyCode']); // Remove from data to avoid sending in body
             }
 
-            $this->logger->log("Making $method request to $baseUrl/$endpoint with headers: " . json_encode($headers));
+            $fullUrl = $baseUrl . '/' . $processedEndpoint;
+
+            // Log request details with the actual processed URL
+            $this->logger->log("Making $method request to $fullUrl");
+            $this->logger->log("Headers: " . json_encode($headers));
+            
             if (!empty($data)) {
-                $this->logger->log("Request payload: " . json_encode($data));
+                $this->logger->log("Request parameters: " . json_encode($data));
             }
 
-            $response = $this->httpClient->request($method, $baseUrl . '/' . $endpoint, $headers, $data);
+            // Make the request
+            $response = $this->httpClient->request($method, $fullUrl, $headers, $data);
 
-            $this->logger->log("Response: " . json_encode($response));
+            // Log response
+            $this->logger->log("Response Status: " . $response['statusCode']);
+            $this->logger->log("Response Headers: " . json_encode($response['headers']));
+            $this->logger->log("Response Body: " . $response['body']);
 
             return json_encode([
-                "success" => true,
+                "success" => $response['statusCode'] >= 200 && $response['statusCode'] < 300,
                 "statusCode" => $response['statusCode'],
-                "message" => "Request successful",
+                "message" => "Request completed",
                 "data" => $response['body']
             ]);
+
+        } catch (InvalidArgumentException $e) {
+            $this->logger->log("Header validation failed: " . $e->getMessage());
+            return json_encode([
+                "success" => false,
+                "statusCode" => 400,
+                "message" => "Invalid headers: " . $e->getMessage(),
+                "data" => null
+            ]);
         } catch (Exception $e) {
-            $this->logger->log("Error: " . $e->getMessage());
+            $this->logger->log("Request failed: " . $e->getMessage());
             return json_encode([
                 "success" => false,
                 "statusCode" => 500,
-                "message" => "An error occurred: " . $e->getMessage(),
+                "message" => "Request failed: " . $e->getMessage(),
                 "data" => null
             ]);
         }

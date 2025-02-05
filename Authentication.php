@@ -88,7 +88,8 @@ class Authentication
         openssl_pkey_free($res);  // Use openssl_pkey_free instead of openssl_free_key
 
         // Base64 URL-safe encode the signature
-        $encodedSignature = str_replace(['+', '/'], ['-', '_'], base64_encode($signature));  // URL-safe encoding
+        //$encodedSignature = str_replace(['+', '/'], ['-', '_'], base64_encode($signature));  // URL-safe encoding
+        $encodedSignature = base64_encode($signature);
         $this->logger->log("Base64 URL-safe Encoded Signature: " . $encodedSignature);
 
         // Log the final signature
