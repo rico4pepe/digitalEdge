@@ -37,30 +37,33 @@ class ApiClient
                 'Accept' => 'application/json'
             ];
 
-            // Handle URL parameters
-            $processedEndpoint = $endpoint;
-            if (isset($data['merchantCode'])) {
-                $processedEndpoint = str_replace('{$merchantCode}', $data['merchantCode'], $processedEndpoint);
-                unset($data['merchantCode']); // Remove from data after using it
-            }
-
-            // Add optional currency headers if provided
+            // Extract currencyId and currencyCode from the request data and add them to headers
             if (!empty($data['currencyId'])) {
                 $headers['X-Currency-Id'] = $data['currencyId'];
-                unset($data['currencyId']); // Remove from data to avoid sending in body
+                unset($data['currencyId']);  // Remove currencyId from the body
             }
 
             if (!empty($data['currencyCode'])) {
                 $headers['X-Currency-Code'] = $data['currencyCode'];
-                unset($data['currencyCode']); // Remove from data to avoid sending in body
+                unset($data['currencyCode']);  // Remove currencyCode from the body
             }
 
-            $fullUrl = $baseUrl . '/' . $processedEndpoint;
+            // Dynamically replace any placeholders in the endpoint (for GET requests with parameters)
+            $processedEndpoint = preg_replace_callback('/\{(\w+)\}/', function ($matches) use (&$data) {
+                $key = $matches[1]; // Extract placeholder name
+                if (isset($data[$key])) {
+                    $value = $data[$key];
+                    unset($data[$key]); // Remove from request data after using it
+                    return $value; // Replace placeholder with actual value
+                }
+                return $matches[0]; // Keep placeholder if no matching data found
+            }, $endpoint);
 
             // Log request details with the actual processed URL
+            $fullUrl = $baseUrl . '/' . $processedEndpoint;
             $this->logger->log("Making $method request to $fullUrl");
             $this->logger->log("Headers: " . json_encode($headers));
-            
+
             if (!empty($data)) {
                 $this->logger->log("Request parameters: " . json_encode($data));
             }
@@ -79,7 +82,6 @@ class ApiClient
                 "message" => "Request completed",
                 "data" => $response['body']
             ]);
-
         } catch (InvalidArgumentException $e) {
             $this->logger->log("Header validation failed: " . $e->getMessage());
             return json_encode([

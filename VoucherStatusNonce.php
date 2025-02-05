@@ -19,20 +19,25 @@ $privateKeyPath = $config->get('api.privateKeyPath');
 $auth = new Authentication($apiKey, $privateKeyPath, $logger);
 $apiClient = new ApiClient($myhttpClient, $auth, $logger, $config);
 
+// Generate the nonce
+$nonce = $auth->generateNonce();
+
 // Initialize parameters from the request (with default values)
-$merchantCode = $_GET['merchantCode'] ?? '12345';
 $currencyId = $_GET['currencyId'] ?? null;
 $currencyCode = $_GET['currencyCode'] ?? null;
 
+// Build request data (only currency headers, since X-Nonce goes in headers)
 $requestData = [
-    'merchantCode' => $merchantCode, // Add merchantCode to the data array
     'currencyId' => $currencyId,
     'currencyCode' => $currencyCode
 ];
 
+// Build the endpoint with the actual X-Nonce value
+$endpoint = "api/v1/Voucher/Nonce/{$nonce}";
+
 try {
-    // Make the GET request with query parameters
-    $response = $apiClient->request('GET', 'api/v1/Product/Merchant/{merchantCode}', $requestData);
+    // Make the GET request
+    $response = $apiClient->request('GET', $endpoint, $requestData);
 
     // Return API response
     header('Content-Type: application/json');

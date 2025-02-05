@@ -20,19 +20,19 @@ $auth = new Authentication($apiKey, $privateKeyPath, $logger);
 $apiClient = new ApiClient($myhttpClient, $auth, $logger, $config);
 
 // Initialize parameters from the request (with default values)
-$merchantCode = $_GET['merchantCode'] ?? '12345';
+$categoryCode = $_GET['categoryCode'] ?? '12345';
 $currencyId = $_GET['currencyId'] ?? null;
 $currencyCode = $_GET['currencyCode'] ?? null;
 
 $requestData = [
-    'merchantCode' => $merchantCode, // Add merchantCode to the data array
+    'categoryCode' => $categoryCode, // Add merchantCode to the data array
     'currencyId' => $currencyId,
     'currencyCode' => $currencyCode
 ];
 
 try {
     // Make the GET request with query parameters
-    $response = $apiClient->request('GET', 'api/v1/Product/Merchant/{merchantCode}', $requestData);
+    $response = $apiClient->request('GET', 'api/v1/Product/Category/{categoryCode}', $requestData);
 
     // Return API response
     header('Content-Type: application/json');
