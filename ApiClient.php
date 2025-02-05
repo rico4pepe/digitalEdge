@@ -16,6 +16,7 @@ class ApiClient
         $this->logger = $logger;
         $this->config = $config;
 
+        // Optionally retrieve currencyId and currencyCode from config or query parameters
         $this->currencyId = $this->config->get('api.currencyId');
         $this->currencyCode = $this->config->get('api.currencyCode');
     }
@@ -36,11 +37,13 @@ class ApiClient
                 'Content-Type' => 'application/json'
             ];
 
-            if ($this->currencyId) {
-                $headers['X-Currency-Id'] = $this->currencyId;
+            // Add currency details from query parameters if provided
+            if (!empty($data['currencyId'])) {
+                $headers['X-Currency-Id'] = $data['currencyId'];
             }
-            if ($this->currencyCode) {
-                $headers['X-Currency-Code'] = $this->currencyCode;
+
+            if (!empty($data['currencyCode'])) {
+                $headers['X-Currency-Code'] = $data['currencyCode'];
             }
 
             $this->logger->log("Making $method request to $baseUrl/$endpoint with headers: " . json_encode($headers));

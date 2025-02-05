@@ -1,0 +1,272 @@
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/{code} with headers: {"X-Api-Key":"q7H9m6bX\/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=","X-Nonce":"103925020418165426441074","X-Signature":"JlkNk6Z3ISiBbI+YDitcl4MS3Bfq7O7y\/obw3h7pjEZNSqyeSiD0BthnVoCTis9axNblNPBLkDkxeLKTja9lK+c0yFLkeeTeLseSPST1\/eg+jah4Ige0cZJsUFudhcvxQAIqmO4AVBn1+GG5XbOuVZ+7dKOqBCKlwD4+Yfcl\/f8yPp64ljK4mnfje4jcRFIs+AQro7xqcivROhh26+z9LVuB0W7EURTulEJOhTLWXlt4JjI1TxuFoEOQGWw2XOXy\/XtmMbigqipdRvJZ8Ix9ieiKk9UvO63wISUeUyKRBBF3Ie\/do0RphhxMaQt5XYejErIHZrbnccUuF1fBUghzrA==","Content-Type":"application\/json"}
+Request payload: {"code":null}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T17:16:45.735Z\",\"sysErr\":-46,\"sysId\":250204171653231557,\"sessionUid\":\"F:MXUPZIAZAATWOIHCKFDWWVAZA\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/{code} with headers: {"X-Api-Key":"q7H9m6bX\/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=","X-Nonce":"103925020418212050687614","X-Signature":"AKTpQ7qs0L5bcYbQ7GMy7b37eyQel8asBMOm5LA5nKNZU+TuwlY7WtUw5PzwLkX5lJ69MF1E+KXuGMr0S5+8KNhDbL6N98L7SzqHGRUsHk09aYTAWlW2KFGQSgXZDQsgppd18txAqYQCcpI0PQklJ3yaJQJdttavSlciSi0zMPBpamhhmyUUJZtcScoT3n5mB\/lqQj1RHaGCjp+ZlQ1L7AzOoVg4CIEHeXYSzyv\/33\/kwB9P6w0SF8oKnTNARCC2BJYQyvN5i41qoaoMufxscjNhYk3zn5hAWniCfYEG2BkxAIWYwEMbByne1F0DNeS3PgH0tIpncgN9IN4R3N55ig==","Content-Type":"application\/json"}
+Request payload: {"code":null}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T17:21:03.725Z\",\"sysErr\":-46,\"sysId\":250204172148636157,\"sessionUid\":\"F:VRBHVJDSBYHNWWLTGGWELXENA\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/{code} with headers: {"X-Api-Key":"q7H9m6bX\/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=","X-Nonce":"111625020418317799603509","X-Signature":"Vzlfrmy36uaGpdJKOX66wHLvRQzC9uCT0OBthf5SoAtZdCGL2ohE4mcUozbsgSg\/pbpRvXNumU6lKOfivkTIQifTstzN6uOa5J8l\/wUIqVcsoy0WDNZA9SapxPipGRul0ZZyBgm86FY0MGuj1hGusL67i24pllCOx3PPwcT+z0+ZdAqfcHnTvV4L5Mlkh3H3DkZyX3t4Fz\/AIvsh3wluAMVIgCjm4LPPgxzAeVn7Z4JWz6sqpc\/3DG9xywdYXivwDOcqklzcR6A\/cKifG\/46mAdaVhAPwMJ0lMruO9Pu7EdTA1+43HZenxflSaFPd3EWG\/kCkNctl+8olhk4VDUtrw==","Content-Type":"application\/json"}
+Request payload: {"code":null}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T17:31:08.004Z\",\"sysErr\":-46,\"sysId\":250204173175647041,\"sessionUid\":\"F:MHTLJJPDQKEUSCVSTZEDSJOWD\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/evend with headers: {"X-Api-Key":"q7H9m6bX\/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=","X-Nonce":"111625020418356080234783","X-Signature":"BkEuaWsYn8bD\/C9\/sNSBgtWaITYuiQxmsCJwezIewErw5NNnWVtDkxkI+qfxq3EGHPovWZiUnhWBzMpbsvi0GzoTGFFq4GQPwgfvh6DsnSfxzxy2cWMK2svENXCqCmw48bv2nC95HWN10MiqpvaxAbgYoeQp3kNKK0W3aEeStrpx015KJ11WGjozcXNw3Xq79NiiYtZh+qBq3WA7gDTTOsMt\/9eNen2nza0IklZuzHUfmW19FQzx\/br41Rw1R7C2XzQ9nQJF2de6Ex1umi2c\/+r\/90KdxrB19yXHhGIwPbJM+yP0n0vjtxN43pQZ0fEUHRYbCNWxHWerrCHMYDC2Ww==","Content-Type":"application\/json","X-Currency-Id":""}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T17:35:55.447Z\",\"sysErr\":-46,\"sysId\":250204173535166483,\"sessionUid\":\"F:LABZGFDQUREJYLQHAXESBYBVE\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/evend with headers: {"X-Api-Key":"q7H9m6bX\/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=","X-Nonce":"111625020418378746527772","X-Signature":"fkNnbuKhwRrncaZnznSUC7C0C3KVkCyGNDB1aU\/lT8QyaN43Ekh61t3KipunMOoIUEwgLVkGEkwapDb0BGH6JNsWXRFxRClbFIk2ArYrq2j+BNMvsMM5ltwex0IlEQtBqjHT78hyOiTAbpwlGr05JY42ruQrhE2hph2sUyzOuBuL4m47KF3IueRUUHbRgetjqGqHGaYFzSi9fxO4nfh+3yNcWpuEE7NlDepGPUHLM\/TuPFRnVWzeIAmoivZ9M7Mv06SoVPkA2UODxqpaJv99UgJVhQl1C69GKAL592Q8\/LnDawnr4WuuPDd3ykX82Fc7+RvG0XLD5+iOv7pz4TUnDA==","Content-Type":"application\/json","X-Currency-Id":"160","X-Currency-Code":"NGN"}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T17:37:36.402Z\",\"sysErr\":-46,\"sysId\":250204173716277068,\"sessionUid\":\"F:IPPOYRJUUAECUOWABILTSQHMW\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Generated Nonce: 111625020419001076086955
+Data to Sign: 111625020419001076086955
+Error: Private key file not found or unreadable: 
+Generated Nonce: 111625020419054082938132
+Data to Sign: q7H9m6bX/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=111625020419054082938132
+Generated Signature (Base64): K4z2h2RewQUCh8rEf/c3FZqfI1TLdlexTrpu4QdclyGUbzh8xT74Z0ry1Vqhr5VtdREYhYTvFxSLJuTdqQUvamOaHpWgmAGPzlRMBmv2veyJIpTGAV+5X+8IPxZzudDAoCaShQIMq8qX5c/GLlGXngmxAW26Oq1HrdmYiXeMdOazdKZmxloNQfI9YB09se6AyMfG70sT5IPhY+y03LVmLhSSipz5+mM4nibxlOoeXMPbzrSB1+cqkjjNdWvLPuagLi/5jLyj7Tpalxa1NK6rLWXBJPpE+gEDsAqlIK0fcEp4bkVI7r0RmTSKpX1C8NVaPil2AVTMiKarXRcdQ/T81g==
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/{$merchantCode} with headers: {"X-Api-Key":"q7H9m6bX\/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=","X-Nonce":"111625020419054082938132","X-Signature":"K4z2h2RewQUCh8rEf\/c3FZqfI1TLdlexTrpu4QdclyGUbzh8xT74Z0ry1Vqhr5VtdREYhYTvFxSLJuTdqQUvamOaHpWgmAGPzlRMBmv2veyJIpTGAV+5X+8IPxZzudDAoCaShQIMq8qX5c\/GLlGXngmxAW26Oq1HrdmYiXeMdOazdKZmxloNQfI9YB09se6AyMfG70sT5IPhY+y03LVmLhSSipz5+mM4nibxlOoeXMPbzrSB1+cqkjjNdWvLPuagLi\/5jLyj7Tpalxa1NK6rLWXBJPpE+gEDsAqlIK0fcEp4bkVI7r0RmTSKpX1C8NVaPil2AVTMiKarXRcdQ\/T81g==","Content-Type":"application\/json","X-Currency-Id":"160","X-Currency-Code":"NGN"}
+Request payload: {"currencyId":"160","currencyCode":"NGN"}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T18:05:27.580Z\",\"sysErr\":-46,\"sysId\":250204180518558442,\"sessionUid\":\"F:AFYKGVPQMWTMVMWFVIBTEZCXF\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Generated Nonce: 111625020419086685599822
+Data to Sign: q7H9m6bX/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=111625020419086685599822
+Generated Signature (Base64): K7zzD5MTg7eGMA/jQ2DnH9OG6DUBkwvIsOV1ECg/ZBMaIc8h4724yKjKXodItZLWS/sVzopaETRuevjWx9OkB1Jf3/2iPyBxKVqo6LfH0QsdOyvclzz9T1YQ1uo/rIlRur9nCX8z8HTHora46z4/gbB/oaU1BmcIhsNuy0m61oue+RJtXcO64Lsywhtk59k8Nlk8Zn9RvancGQsgmyIrv3SXf1ZrATpORFwfFbB+Jt5Hkhss0AW8BcFc+cuBlXBFPuP8j0KKDb2boK86P740iG4SlxM476wt1ppCzwP50x58Y1Cre3GMyXPe8Gr+KCtFd0sEXdBQi9uK/9mVinx2BA==
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/{$merchantCode} with headers: {"X-Api-Key":"q7H9m6bX\/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=","X-Nonce":"111625020419086685599822","X-Signature":"K7zzD5MTg7eGMA\/jQ2DnH9OG6DUBkwvIsOV1ECg\/ZBMaIc8h4724yKjKXodItZLWS\/sVzopaETRuevjWx9OkB1Jf3\/2iPyBxKVqo6LfH0QsdOyvclzz9T1YQ1uo\/rIlRur9nCX8z8HTHora46z4\/gbB\/oaU1BmcIhsNuy0m61oue+RJtXcO64Lsywhtk59k8Nlk8Zn9RvancGQsgmyIrv3SXf1ZrATpORFwfFbB+Jt5Hkhss0AW8BcFc+cuBlXBFPuP8j0KKDb2boK86P740iG4SlxM476wt1ppCzwP50x58Y1Cre3GMyXPe8Gr+KCtFd0sEXdBQi9uK\/9mVinx2BA==","Content-Type":"application\/json","X-Currency-Id":"160","X-Currency-Code":"NGN"}
+Request payload: {"currencyId":"160","currencyCode":"NGN"}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T18:08:35.850Z\",\"sysErr\":-46,\"sysId\":250204180806262623,\"sessionUid\":\"F:WVWXNDCBMNZRVKYOKUIDPMDMB\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Generated Nonce: 111625020419103718607049
+Data to Sign: q7H9m6bX/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=111625020419103718607049
+Private key path: privatekey.pem
+Generated Signature (Base64): cSbkWIMGIjD5CnMPGcIHEuaRKusInnZxSuvClAVK5OVLO4XKuwBUKa88Zu+ynDXZQzMsHPBn9l+qcEYeE09CvfHHidMG/9kkggC482mXVyuB7XyWx0k0oXCJHh59pw2HnkEEDNyC8b3ZaZjw0qIO09sEfkh9BoKSpyFDnRjMqz5WA/ZhypMsPiJCBLkVZJc1KCKCFJfXe9N0GMfUwedXc5VOSoL4eDGQ2dQfP9aMG/3MjAPtB3tKU9zB9s02Y3RUcNvL/T0Q7dvarhQSfDW3e25Y9m0fOtYIS0ilJhMEj3STs9m0wZ8XmMho50NtLs3zs0PmuXjjR+NW1YRHz5O35Q==
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/{$merchantCode} with headers: {"X-Api-Key":"q7H9m6bX\/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=","X-Nonce":"111625020419103718607049","X-Signature":"cSbkWIMGIjD5CnMPGcIHEuaRKusInnZxSuvClAVK5OVLO4XKuwBUKa88Zu+ynDXZQzMsHPBn9l+qcEYeE09CvfHHidMG\/9kkggC482mXVyuB7XyWx0k0oXCJHh59pw2HnkEEDNyC8b3ZaZjw0qIO09sEfkh9BoKSpyFDnRjMqz5WA\/ZhypMsPiJCBLkVZJc1KCKCFJfXe9N0GMfUwedXc5VOSoL4eDGQ2dQfP9aMG\/3MjAPtB3tKU9zB9s02Y3RUcNvL\/T0Q7dvarhQSfDW3e25Y9m0fOtYIS0ilJhMEj3STs9m0wZ8XmMho50NtLs3zs0PmuXjjR+NW1YRHz5O35Q==","Content-Type":"application\/json","X-Currency-Id":"160","X-Currency-Code":"NGN"}
+Request payload: {"currencyId":"160","currencyCode":"NGN"}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T18:10:28.633Z\",\"sysErr\":-46,\"sysId\":250204181066702757,\"sessionUid\":\"F:NURWFVUVLKXQERTNIODPFSAPS\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Generated Nonce: 1116 25020419207999133665
+Data to Sign: q7H9m6bX/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=111625020419207999133665
+Private key path: C:\Users\SOFTWARE DEVELOPER\Desktop\Ringo_Laravel\DigitalEdge/private.pem
+Error: Private key file not found or unreadable: C:\Users\SOFTWARE DEVELOPER\Desktop\Ringo_Laravel\DigitalEdge/private.pem
+Generated Nonce: 111625020419226238678255
+Data to Sign: q7H9m6bX/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=111625020419226238678255
+Private key path: C:\Users\SOFTWARE DEVELOPER\Desktop\Ringo_Laravel\DigitalEdge\/private.pem
+Error: Private key file not found or unreadable: C:\Users\SOFTWARE DEVELOPER\Desktop\Ringo_Laravel\DigitalEdge
+Generated Nonce: 111625020419246254752139
+Data to Sign: q7H9m6bX/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=111625020419246254752139
+Private key path: C:\Users\SOFTWARE DEVELOPER\Desktop\Ringo_Laravel\DigitalEdge\private.pem
+Error: Private key file not found or unreadable: C:\Users\SOFTWARE DEVELOPER\Desktop\Ringo_Laravel\DigitalEdge\private.pem
+Generated Nonce: 111625020419255957342745
+Data to Sign: q7H9m6bX/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=111625020419255957342745
+Private key path: C:\Users\SOFTWARE DEVELOPER\Desktop\Ringo_Laravel\DigitalEdge\privateKey.pem
+Generated Signature (Base64): KzAMwXaBSVDVL6ETrC/TC6oAnCs6CJMPQ8AMY1mUOvTlw4bm7u+MwTcfj1nyU4ZdoMOxNPwlQlSKKQDDd8ZFHypxSevMx2H8kxeBPumyukkDt1Qb506at13St7J5bmHCEcAArYeRZ9Zt7LqwPZT5B15ZtgIAWLoxnzyp12lSExfc6P88IpuSvlAdFBF2G7yq4vNe/wZhXm0TYFOc6H3QFEtc7h/hoygm4wT9+LAsFBQqDlApOS0utm/c9gvmM1l4E5FRo+BamK/xJ4JXYA/yKwgNSd6WlrzTo7sAL5EXV97g6hwMlxZXRrbM46hwYOgbx5B2e92Hctnuhc0cetCkOg==
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/{$merchantCode} with headers: {"X-Api-Key":"q7H9m6bX\/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=","X-Nonce":"111625020419255957342745","X-Signature":"KzAMwXaBSVDVL6ETrC\/TC6oAnCs6CJMPQ8AMY1mUOvTlw4bm7u+MwTcfj1nyU4ZdoMOxNPwlQlSKKQDDd8ZFHypxSevMx2H8kxeBPumyukkDt1Qb506at13St7J5bmHCEcAArYeRZ9Zt7LqwPZT5B15ZtgIAWLoxnzyp12lSExfc6P88IpuSvlAdFBF2G7yq4vNe\/wZhXm0TYFOc6H3QFEtc7h\/hoygm4wT9+LAsFBQqDlApOS0utm\/c9gvmM1l4E5FRo+BamK\/xJ4JXYA\/yKwgNSd6WlrzTo7sAL5EXV97g6hwMlxZXRrbM46hwYOgbx5B2e92Hctnuhc0cetCkOg==","Content-Type":"application\/json","X-Currency-Id":"160","X-Currency-Code":"NGN"}
+Request payload: {"currencyId":"160","currencyCode":"NGN"}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T18:26:01.874Z\",\"sysErr\":-46,\"sysId\":250204182685603752,\"sessionUid\":\"F:SOQHFMRLBPOMMORJPJFTAANWA\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Generated Nonce: 1116 250204 1934 7959029817
+Data to Sign: q7H9m6bX/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=111625020419347959029817
+Private key path: C:\Users\SOFTWARE DEVELOPER\Desktop\Ringo_Laravel\DigitalEdge\privateKey.pem
+Generated Signature (Base64): Jeiozufa7TlB1hjD+JT1TSWuL4wVSMcmpQEzb7eow4+JS0twfsjJVuqLvGPKlphGq0UiGT9vl+NJI25B8Al+hm6764mPDZV2+CAVvPcMlPsAdJOPsY0n8/ORFYgPL9By2sdgAdQ04ZH+WHHGvM4Ejmh4BCHzeqojL9tR3ErtlkVQidjDgeHgNsrx/MmWCOOkCos14QzqYIrx31rNJmP9lOYnFJ0jKGhO9N0U7sDKFbaTKZAkawnhrAUhz2KldjPFzm0i94K6CjbaaclYu9LWBTnvBsG7guoxSCAVa1nMT0ZOIyt1Dae4cjUAqxxOKj85Hjd6waU5JS8iLktXFV2wOA==
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/{$merchantCode} with headers: {"X-Api-Key":"q7H9m6bX\/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=","X-Nonce":"111625020419347959029817","X-Signature":"Jeiozufa7TlB1hjD+JT1TSWuL4wVSMcmpQEzb7eow4+JS0twfsjJVuqLvGPKlphGq0UiGT9vl+NJI25B8Al+hm6764mPDZV2+CAVvPcMlPsAdJOPsY0n8\/ORFYgPL9By2sdgAdQ04ZH+WHHGvM4Ejmh4BCHzeqojL9tR3ErtlkVQidjDgeHgNsrx\/MmWCOOkCos14QzqYIrx31rNJmP9lOYnFJ0jKGhO9N0U7sDKFbaTKZAkawnhrAUhz2KldjPFzm0i94K6CjbaaclYu9LWBTnvBsG7guoxSCAVa1nMT0ZOIyt1Dae4cjUAqxxOKj85Hjd6waU5JS8iLktXFV2wOA==","Content-Type":"application\/json","X-Currency-Id":"160","X-Currency-Code":"NGN"}
+Request payload: {"currencyId":"160","currencyCode":"NGN"}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T18:34:25.730Z\",\"sysErr\":-46,\"sysId\":250204183424862173,\"sessionUid\":\"F:PKVQKRDXMLZHANBKAFPQFABWO\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Generated Nonce: 111625020419521349225901
+Data to Sign: q7H9m6bX/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=111625020419521349225901
+Private key path: C:\Users\SOFTWARE DEVELOPER\Desktop\Ringo_Laravel\DigitalEdge\privateKey.pem
+Generated Signature (Base64): P6ZLufRAzt4hPaz8ilf4gfzOOgLaX6gXPZuugneIrSthlx374O2kmOECG/CPwL/CdeWvGEqFpZqWksOIQS+oJNa1fsaRf5Zu3SKEr6pLawGYLyy7fgNuNLgz8dwYl4GVMRNTtCm/D+NEAntIEPi+Ca5SSA4uO8+r2TMsd/k+8ne/tomPPfVzmDgR1s7379KmU+RjDm2PLZMWObo60ZJdBG7yR0WGyHENEhdlxox/nC8eKc0p3rzuD+szyKyi1iQkf/lCyXWTlLkzuwmTb+YSnAoCk2RZxqVU4NU0Li9ptj+CxjMxHuQ3nL612Q/2H6aVSbWuE/uGVmGxbIfFKEYJiQ==
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/{$merchantCode} with headers: {"X-Api-Key":"q7H9m6bX\/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=","X-Nonce":"111625020419521349225901","X-Signature":"P6ZLufRAzt4hPaz8ilf4gfzOOgLaX6gXPZuugneIrSthlx374O2kmOECG\/CPwL\/CdeWvGEqFpZqWksOIQS+oJNa1fsaRf5Zu3SKEr6pLawGYLyy7fgNuNLgz8dwYl4GVMRNTtCm\/D+NEAntIEPi+Ca5SSA4uO8+r2TMsd\/k+8ne\/tomPPfVzmDgR1s7379KmU+RjDm2PLZMWObo60ZJdBG7yR0WGyHENEhdlxox\/nC8eKc0p3rzuD+szyKyi1iQkf\/lCyXWTlLkzuwmTb+YSnAoCk2RZxqVU4NU0Li9ptj+CxjMxHuQ3nL612Q\/2H6aVSbWuE\/uGVmGxbIfFKEYJiQ==","Content-Type":"application\/json","X-Currency-Id":"160","X-Currency-Code":"NGN"}
+Request payload: {"currencyId":"160","currencyCode":"NGN"}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T18:52:08.428Z\",\"sysErr\":-46,\"sysId\":250204185202855813,\"sessionUid\":\"F:IXQSYRIVOMNPALIPRJDAMDVOC\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Generated Nonce: 111625020421318358667038
+Data to Sign: q7H9m6bX/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=111625020421318358667038
+Private key path: C:\Users\SOFTWARE DEVELOPER\Desktop\Ringo_Laravel\DigitalEdge\privateKey.pem
+Generated Signature (Base64): G0kmmlEQkeqMFTMQfKuOKWzFUhj1F3PmOuJems7KTzENbl9H66qf/Vjd7xdDua7LP5eXGGeHeVKIwjmHfshWLrU2RDUXLMlmI2facWcdAJTN9lfDk/tQMOWqEMNWh4Tu5ndxxsKrvkfuj2QMrKyRrfdF7yE7FdUwkDblAqQTPCyFKJEgCxZbYwbd+Le4CS7ez6kRZn28bU1dLpXtrO8pUrMQSgu81y35XmaUmJq3Cb1m9lz4DQfK29rxadzms5dTU5juo8vK5qB2P2hPYEzZbsLarrQo+b879dkhXV55437Bjm8JfSKNO74uSgGlwlJWfUxsRAqjOkRNrMBEZlefWQ==
+Signature generation process completed successfully.
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/{$merchantCode} with headers: {"X-Api-Key":"q7H9m6bX\/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=","X-Nonce":"111625020421318358667038","X-Signature":"G0kmmlEQkeqMFTMQfKuOKWzFUhj1F3PmOuJems7KTzENbl9H66qf\/Vjd7xdDua7LP5eXGGeHeVKIwjmHfshWLrU2RDUXLMlmI2facWcdAJTN9lfDk\/tQMOWqEMNWh4Tu5ndxxsKrvkfuj2QMrKyRrfdF7yE7FdUwkDblAqQTPCyFKJEgCxZbYwbd+Le4CS7ez6kRZn28bU1dLpXtrO8pUrMQSgu81y35XmaUmJq3Cb1m9lz4DQfK29rxadzms5dTU5juo8vK5qB2P2hPYEzZbsLarrQo+b879dkhXV55437Bjm8JfSKNO74uSgGlwlJWfUxsRAqjOkRNrMBEZlefWQ==","Content-Type":"application\/json","X-Currency-Id":"160","X-Currency-Code":"NGN"}
+Request payload: {"currencyId":"160","currencyCode":"NGN"}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T20:31:08.297Z\",\"sysErr\":-46,\"sysId\":250204203126817276,\"sessionUid\":\"F:POSYKDBMJVXVTHOOYJIDUQEJO\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Generated Nonce: 111625020421351730d01a23
+Data to Sign: q7H9m6bX/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=111625020421351730d01a23
+Private key path: C:\Users\SOFTWARE DEVELOPER\Desktop\Ringo_Laravel\DigitalEdge\privateKey.pem
+Generated Signature (Base64): cL+Qm7Sd7DFclnDkZ7RmWQRUcwWfYCnlwMg23ZJTrM7oe0v1kK9c0yHuqBOaVyMZAMUvhCS/uY9erpnzIVRmjn2SDR0pnFP4BBzYOElmUz7i77brmubNSY+rvB92NTJTftWM5xQS1QSkhIKlJedasZJ2kY4mVu95LCex3x/xKZ8I3XqC9LIIoB6iIIX+puk5gILIXQbQQLrRtdkpwBOIkYvvwJrKxDAZrKX+gnff35p3zxnmUTDMd2PDPcAYQL3K8h3cHdcJURIEL+OtIAkcOEG5K5cS9n3sv+rW+tR0ITs1jFLtv97vvVIHV565qWFSoYdtVl33HkpDYmOy8kJYPA==
+Signature generation process completed successfully.
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/{$merchantCode} with headers: {"X-Api-Key":"q7H9m6bX\/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=","X-Nonce":"111625020421351730d01a23","X-Signature":"cL+Qm7Sd7DFclnDkZ7RmWQRUcwWfYCnlwMg23ZJTrM7oe0v1kK9c0yHuqBOaVyMZAMUvhCS\/uY9erpnzIVRmjn2SDR0pnFP4BBzYOElmUz7i77brmubNSY+rvB92NTJTftWM5xQS1QSkhIKlJedasZJ2kY4mVu95LCex3x\/xKZ8I3XqC9LIIoB6iIIX+puk5gILIXQbQQLrRtdkpwBOIkYvvwJrKxDAZrKX+gnff35p3zxnmUTDMd2PDPcAYQL3K8h3cHdcJURIEL+OtIAkcOEG5K5cS9n3sv+rW+tR0ITs1jFLtv97vvVIHV565qWFSoYdtVl33HkpDYmOy8kJYPA==","Content-Type":"application\/json","X-Currency-Id":"160","X-Currency-Code":"NGN"}
+Request payload: {"currencyId":"160","currencyCode":"NGN"}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T20:35:55.975Z\",\"sysErr\":-46,\"sysId\":250204203538265222,\"sessionUid\":\"F:PEPQBADVLGDDWYYMOOUQYIMCX\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Generated Nonce: 11162502042138fed1a2d2fc
+Data to Sign: Wh27QPVOV/W1R9r+1Pat3vJ5JgvUjwDnQ4nlqdFjoiM=11162502042138fed1a2d2fc
+Private key path: C:\Users\SOFTWARE DEVELOPER\Desktop\Ringo_Laravel\DigitalEdge\privateKey.pem
+Generated Signature (Base64): X/syWj8tfmTCv7SEh/0GX1CI4STt4YZlwetRlpzP9wdZM3w4VywCcCI2aFKeFIIO5PlQlfkeHXmR2VR6aCuCyYTLydnC7GZTdUlRGkX8O1aaZvJooTx7ZFqO+bwfj7w6+wOa6fA55JkXl235fvh8jorGIjrTMijpa+/6xlh6wkkVtqdpfjFxxyqk9A0jWhUWlGmVh8alExxM8izf42J8zXI2QwsSIhJwFn6o9FFf9wfBRYY3socjkKOjspHW64ZjbJmTEcJtrFSANTYon5eG0g/s0FEExFZS/Z010Nh2GogOhP3Y0Zr4xlAzUNBuNaQLXviTAEKMaq4kwNNebis8Ig==
+Signature generation process completed successfully.
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/{$merchantCode} with headers: {"X-Api-Key":"Wh27QPVOV\/W1R9r+1Pat3vJ5JgvUjwDnQ4nlqdFjoiM=","X-Nonce":"11162502042138fed1a2d2fc","X-Signature":"X\/syWj8tfmTCv7SEh\/0GX1CI4STt4YZlwetRlpzP9wdZM3w4VywCcCI2aFKeFIIO5PlQlfkeHXmR2VR6aCuCyYTLydnC7GZTdUlRGkX8O1aaZvJooTx7ZFqO+bwfj7w6+wOa6fA55JkXl235fvh8jorGIjrTMijpa+\/6xlh6wkkVtqdpfjFxxyqk9A0jWhUWlGmVh8alExxM8izf42J8zXI2QwsSIhJwFn6o9FFf9wfBRYY3socjkKOjspHW64ZjbJmTEcJtrFSANTYon5eG0g\/s0FEExFZS\/Z010Nh2GogOhP3Y0Zr4xlAzUNBuNaQLXviTAEKMaq4kwNNebis8Ig==","Content-Type":"application\/json","X-Currency-Id":"160","X-Currency-Code":"NGN"}
+Request payload: {"currencyId":"160","currencyCode":"NGN"}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T20:38:39.634Z\",\"sysErr\":-46,\"sysId\":250204203846788738,\"sessionUid\":\"F:LTJQFJUUKANMBFITGQZZPNZUG\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Generated Nonce: 111625020421452749391295
+Data to Sign: Wh27QPVOV/W1R9r+1Pat3vJ5JgvUjwDnQ4nlqdFjoiM=111625020421452749391295
+Private key path: C:\Users\SOFTWARE DEVELOPER\Desktop\Ringo_Laravel\DigitalEdge\privateKey.pem
+Generated Signature (Base64): ag3FUYfqbqk4jfTL1lmNsqKzZTLY8j5n9HrtXOngys3ef9jhtL9jS2H4jyyMQvbFEM/MKWaYSRW54GMNXvw/vvltSpuKHW8GsiPaZMX2oqAPmFwWRh/sEf62/dHvHT18nQI+Klwm6vuO9GpxfBNhquHJKveCK/J/k7BGxV1XvaSAMQI4ChD9+6+I5W48CGiJFuCanLhAxHJa5orLWEesmDjVeAw1zo10IqiIcjXi/Zls602ngttNgT+LiGkMC//hf0nyHIgHYYlKsZFk+PrqINSTN4fa94XmND28iH+jBcngX+Lz8I3tJDGN/qyx2M/b4VCpvMXW0C57RNdbDSDOLA==
+Signature generation process completed successfully.
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/{$merchantCode} with headers: {"X-Api-Key":"Wh27QPVOV\/W1R9r+1Pat3vJ5JgvUjwDnQ4nlqdFjoiM=","X-Nonce":"111625020421452749391295","X-Signature":"ag3FUYfqbqk4jfTL1lmNsqKzZTLY8j5n9HrtXOngys3ef9jhtL9jS2H4jyyMQvbFEM\/MKWaYSRW54GMNXvw\/vvltSpuKHW8GsiPaZMX2oqAPmFwWRh\/sEf62\/dHvHT18nQI+Klwm6vuO9GpxfBNhquHJKveCK\/J\/k7BGxV1XvaSAMQI4ChD9+6+I5W48CGiJFuCanLhAxHJa5orLWEesmDjVeAw1zo10IqiIcjXi\/Zls602ngttNgT+LiGkMC\/\/hf0nyHIgHYYlKsZFk+PrqINSTN4fa94XmND28iH+jBcngX+Lz8I3tJDGN\/qyx2M\/b4VCpvMXW0C57RNdbDSDOLA==","Content-Type":"application\/json","X-Currency-Id":"160","X-Currency-Code":"NGN"}
+Request payload: {"currencyId":"160","currencyCode":"NGN"}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T20:46:01.615Z\",\"sysErr\":-46,\"sysId\":250204204625705558,\"sessionUid\":\"F:JYMYQRKJJIAGGPXFMZMSHPTTP\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Generated Nonce: 111625020422205483939516
+Data to Sign: Wh27QPVOV/W1R9r+1Pat3vJ5JgvUjwDnQ4nlqdFjoiM=111625020422205483939516
+Private key path: C:\Users\SOFTWARE DEVELOPER\Desktop\Ringo_Laravel\DigitalEdge\privateKey.pem
+Generated Signature (Base64): JKP4Zf9grqLG7cH3tDue6LkKfOOeulVhoK5aoskuSEVa7dnNH2Lxm6ZsikGfsl+FwiRFd5x7ADf4DdllXNkdnqoz2/ADRz6lclk9h9a7UG8wEPrCnGZXs6fbSo+xFh4tc0jGBN0YC5wR0yhyvN6mnleVcY01s81OkcH7axtGdV1YBnRjWKV4BYtrzr20uVH/BLlTmaRyI2eeQOerAibpXT/dgRAsBfU81xkZc2C+uPI5QJCxWfkEsfpvHSctjtFii+umA7C/5/LrA/x8zUbXqLuHdnh+lgsOkeiH2pNoFBWpYBzNpNcBXvWzE4DmkiRtrkL6FuyK5RI05GGZFFbzfg==
+Signature generation process completed successfully.
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/{$merchantCode} with headers: {"X-Api-Key":"Wh27QPVOV\/W1R9r+1Pat3vJ5JgvUjwDnQ4nlqdFjoiM=","X-Nonce":"111625020422205483939516","X-Signature":"JKP4Zf9grqLG7cH3tDue6LkKfOOeulVhoK5aoskuSEVa7dnNH2Lxm6ZsikGfsl+FwiRFd5x7ADf4DdllXNkdnqoz2\/ADRz6lclk9h9a7UG8wEPrCnGZXs6fbSo+xFh4tc0jGBN0YC5wR0yhyvN6mnleVcY01s81OkcH7axtGdV1YBnRjWKV4BYtrzr20uVH\/BLlTmaRyI2eeQOerAibpXT\/dgRAsBfU81xkZc2C+uPI5QJCxWfkEsfpvHSctjtFii+umA7C\/5\/LrA\/x8zUbXqLuHdnh+lgsOkeiH2pNoFBWpYBzNpNcBXvWzE4DmkiRtrkL6FuyK5RI05GGZFFbzfg==","Content-Type":"application\/json","X-Currency-Id":"160","X-Currency-Code":"NGN"}
+Request payload: {"currencyId":"160","currencyCode":"NGN"}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T21:20:34.540Z\",\"sysErr\":-46,\"sysId\":250204212056551408,\"sessionUid\":\"F:LCSYMESDKQMEIYLCKYVEWERHG\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Generated Nonce: 111625020422363385709441
+Data to Sign: Wh27QPVOV/W1R9r+1Pat3vJ5JgvUjwDnQ4nlqdFjoiM=111625020422363385709441
+Private key path: C:\Users\SOFTWARE DEVELOPER\Desktop\Ringo_Laravel\DigitalEdge\privateKey.pem
+Private Key: -----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAkE/M3B5QuLve08sGkCd2C8H/XJUJgoenS0R1o81NfHQzZqTO
+3EwiX7hMlZIQfspcal6ygXHc6qSh/C3sQxFVLHOLRbphYsH+WZxorAm167v7Y+LZ
+3s92zePX+WgLM5hsqA2Lgll+i6RoqsnCsXtjb7V0QOJee0qC02ARRO5bhbH592s5
+iDeXujnFD49gf0KNYWcHOetKIkb+DXOv1yjAx6Myeg72rjLtKPjmefu1y6GTZH5i
+6UuWTSJIWzNC8D2LJNLHtbdV1l5Ju1hTbrS0CbUFuOCCij0wO2GMwj8ZOith7uy3
+u9RLyIci2wISvQ20kyAyi0D5C4a3W3WIOw+USwIDAQABAoIBAQCEssx2r+2cIS0B
+5ZPQZGjY4PeWw3juLRz5Sic+ix8wTI2jWfLZgayuBgNuGdTPMfcO3KsZ+oCgxugo 
+wnWZKkv+xvSPFpZMQIRJFFjvsTI2ZTIBpGygxHbDVjqXnUOHmyZ21ZWuM+r4LyML
+wOElYIeMBfezXjRw/JAWHCVlFCTWZujIn7ZvzaRzlMdMt/34yC+KQe6CFtoWu5hT
+VxpO4czXh9B1ChboO+SGLjerANeyWHkg9wjIOrwnw8BB6DspJddo4QvR8QJfDxqp
+0inTyUu7xvw3xqV6M0MdCmN0iJvpPmMzINMzgKl9jf5IJ6jyd30pdAyoEd0L9lEl
+Zh9XbDfZAoGBAPTSxsLhsh9R68zlD9lDdowIJ4F/1XyWkI74AyujSH7r4lCIMPsh
+HsASLR0W/Ajs7K3qFQPRFuiiq/sitVrp3PavcTcuUITbv2XZ4aP9fKJTw/5eOgRk
+sDpoFWHyB7DtWRWSyx8JNBOg4r4j7VALqOjSy4SGamIsvBDJNOEN0Uz9AoGBAJbm
+WwBzXbY4RVvu+kBaBWUe36y5T3yDBKpqnpix/dVVCWAkYe+HGkgW3Xe5wApzCPEl
+TAxbxeNAuoieSSHw7/dR+u7cb3w51ouEdj2jJ37PCBu+6LkUmh6PAPmHIOdUfOkh
+wA9YI4j0vXHhFO8rYPc69DgKqhLVUAsI2Be9OEznAoGAQQLzqu55+V0sq6UsFzqV
+8Ut9CiNjEol866oqVV0vtBx5ZX802osJ+mEZP79JwCkCFJCzcecFGVORLcgitnih
+p5QhEVEoKo+b/LTl+UEn5oct5Y8qAt6l+WyIOREnP7FXVaY8cApmnMu9SlaJ/xaJ
+jQHk71UuTNGqQx7a/uRHbxUCgYAUFSAzVSc5ow+IBqwDeHeTV6KJCDiN55ntXDcz
+Ny0DAUg4JV9rU12qDnD3CB+IxHqCLWaLloMllW291OMCw2AMWDq/I1MrAz+MXdqm
+pVoSRFdd6fBrAVTpkDqe+t7kKphdJoK7CA3ioj+8MippEirbfFsYQkMUMpNuhITN
+0/70LQKBgQCNutxM7G5UAeulp5YqN6Yt/HO3gzp8Jl8Jm+FbHvdCFdasDEvSIRX+
+gFyeMfCQdl+gSHvL2eyctTEvuD+vS3p1opHDO8tsEiLG8wYj5N5tNHReAKgwf4sn
+I2sYez14Ii37K7ZtXYLvBRdi3vaIoOvvaJQL1d4emDB7KvhE87MhmQ==
+-----END RSA PRIVATE KEY-----
+
+Generated Signature (Base64): OIhYKGnCZlwHimDQPpP3WuG6itWjh9oedPauFwWRRjOiNr4xiqqq8WY7GrQd9LYzqKkGRZlbeEUNPIuI/sSBK0PKEo/Aqxkea8GItJG2Mq1dGraXh+LfOuf6MC/hR0X8HFLzHj4tiFonR5LwBxevLlvAy3m1vmCP9HNuX0VCLIWEmsm0udJZzmjdqqqaLlO1WZ3ewMlXdw5EeTe6dMLkPpWgW/sZn3flqgND3BvRNtgsrhnKPGUjIYg3G/5nkYrdD6+U68G6rh9ugnL7iP2dimY77/UFutJ2qW5JqYG5Ne1J7eRFdFbWbagWfLGB4T3lJHqM3AYDUukDpaNgEluagA==
+Signature generation process completed successfully.
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/{$merchantCode} with headers: {"X-Api-Key":"Wh27QPVOV\/W1R9r+1Pat3vJ5JgvUjwDnQ4nlqdFjoiM=","X-Nonce":"111625020422363385709441","X-Signature":"OIhYKGnCZlwHimDQPpP3WuG6itWjh9oedPauFwWRRjOiNr4xiqqq8WY7GrQd9LYzqKkGRZlbeEUNPIuI\/sSBK0PKEo\/Aqxkea8GItJG2Mq1dGraXh+LfOuf6MC\/hR0X8HFLzHj4tiFonR5LwBxevLlvAy3m1vmCP9HNuX0VCLIWEmsm0udJZzmjdqqqaLlO1WZ3ewMlXdw5EeTe6dMLkPpWgW\/sZn3flqgND3BvRNtgsrhnKPGUjIYg3G\/5nkYrdD6+U68G6rh9ugnL7iP2dimY77\/UFutJ2qW5JqYG5Ne1J7eRFdFbWbagWfLGB4T3lJHqM3AYDUukDpaNgEluagA==","Content-Type":"application\/json","X-Currency-Id":"160","X-Currency-Code":"NGN"}
+Request payload: {"currencyId":"160","currencyCode":"NGN"}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T21:36:33.734Z\",\"sysErr\":-46,\"sysId\":250204213636205745,\"sessionUid\":\"F:EXIZOMHLYFZSYRPHQCEFUAQKL\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Generated Nonce: 111625020422469863360427
+Data to Sign: Wh27QPVOV/W1R9r+1Pat3vJ5JgvUjwDnQ4nlqdFjoiM=111625020422469863360427
+Private key path: C:\Users\SOFTWARE DEVELOPER\Desktop\Ringo_Laravel\DigitalEdge\privateKey.pem
+Private Key: -----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAkE/M3B5QuLve08sGkCd2C8H/XJUJgoenS0R1o81NfHQzZqTO
+3EwiX7hMlZIQfspcal6ygXHc6qSh/C3sQxFVLHOLRbphYsH+WZxorAm167v7Y+LZ
+3s92zePX+WgLM5hsqA2Lgll+i6RoqsnCsXtjb7V0QOJee0qC02ARRO5bhbH592s5
+iDeXujnFD49gf0KNYWcHOetKIkb+DXOv1yjAx6Myeg72rjLtKPjmefu1y6GTZH5i
+6UuWTSJIWzNC8D2LJNLHtbdV1l5Ju1hTbrS0CbUFuOCCij0wO2GMwj8ZOith7uy3
+u9RLyIci2wISvQ20kyAyi0D5C4a3W3WIOw+USwIDAQABAoIBAQCEssx2r+2cIS0B
+5ZPQZGjY4PeWw3juLRz5Sic+ix8wTI2jWfLZgayuBgNuGdTPMfcO3KsZ+oCgxugo 
+wnWZKkv+xvSPFpZMQIRJFFjvsTI2ZTIBpGygxHbDVjqXnUOHmyZ21ZWuM+r4LyML
+wOElYIeMBfezXjRw/JAWHCVlFCTWZujIn7ZvzaRzlMdMt/34yC+KQe6CFtoWu5hT
+VxpO4czXh9B1ChboO+SGLjerANeyWHkg9wjIOrwnw8BB6DspJddo4QvR8QJfDxqp
+0inTyUu7xvw3xqV6M0MdCmN0iJvpPmMzINMzgKl9jf5IJ6jyd30pdAyoEd0L9lEl
+Zh9XbDfZAoGBAPTSxsLhsh9R68zlD9lDdowIJ4F/1XyWkI74AyujSH7r4lCIMPsh
+HsASLR0W/Ajs7K3qFQPRFuiiq/sitVrp3PavcTcuUITbv2XZ4aP9fKJTw/5eOgRk
+sDpoFWHyB7DtWRWSyx8JNBOg4r4j7VALqOjSy4SGamIsvBDJNOEN0Uz9AoGBAJbm
+WwBzXbY4RVvu+kBaBWUe36y5T3yDBKpqnpix/dVVCWAkYe+HGkgW3Xe5wApzCPEl
+TAxbxeNAuoieSSHw7/dR+u7cb3w51ouEdj2jJ37PCBu+6LkUmh6PAPmHIOdUfOkh
+wA9YI4j0vXHhFO8rYPc69DgKqhLVUAsI2Be9OEznAoGAQQLzqu55+V0sq6UsFzqV
+8Ut9CiNjEol866oqVV0vtBx5ZX802osJ+mEZP79JwCkCFJCzcecFGVORLcgitnih
+p5QhEVEoKo+b/LTl+UEn5oct5Y8qAt6l+WyIOREnP7FXVaY8cApmnMu9SlaJ/xaJ
+jQHk71UuTNGqQx7a/uRHbxUCgYAUFSAzVSc5ow+IBqwDeHeTV6KJCDiN55ntXDcz
+Ny0DAUg4JV9rU12qDnD3CB+IxHqCLWaLloMllW291OMCw2AMWDq/I1MrAz+MXdqm
+pVoSRFdd6fBrAVTpkDqe+t7kKphdJoK7CA3ioj+8MippEirbfFsYQkMUMpNuhITN
+0/70LQKBgQCNutxM7G5UAeulp5YqN6Yt/HO3gzp8Jl8Jm+FbHvdCFdasDEvSIRX+
+gFyeMfCQdl+gSHvL2eyctTEvuD+vS3p1opHDO8tsEiLG8wYj5N5tNHReAKgwf4sn
+I2sYez14Ii37K7ZtXYLvBRdi3vaIoOvvaJQL1d4emDB7KvhE87MhmQ==
+-----END RSA PRIVATE KEY-----
+
+Base64 URL-safe Encoded Signature: X1XvkjvIGtWb1zfNO1QWoBO_0Cs3i9xGjuRfGV0rE5ykSiWJNpUNpBBqlS10I8FRX5w9TG-sSXb9rMsrPNEKCMXk4PvDOtm_B6VhwZ0Ot9ryRaj8bLYn7jsJdalpVAFRiear5gkJZBuYKomd2zCtnb6Ce6HXG49Zc8FB-K4aZldUVZuqy8vsaevm6G0lcXLDwq14EFVcW9xNetMHzR6VZh9_pe5SFTdOe2ZbwSuiaeqedffda7UwR8OoJgAf8-VLSrOfYKAMbR0_dsHHpLeR6JOHCcLduhvX6_qAWt2Oe8K7wcc5SU6g7Ejfn1tNKN92sQ4dHiwO5hBpXMqCeMw0bA==
+Generated Signature (Base64): X1XvkjvIGtWb1zfNO1QWoBO_0Cs3i9xGjuRfGV0rE5ykSiWJNpUNpBBqlS10I8FRX5w9TG-sSXb9rMsrPNEKCMXk4PvDOtm_B6VhwZ0Ot9ryRaj8bLYn7jsJdalpVAFRiear5gkJZBuYKomd2zCtnb6Ce6HXG49Zc8FB-K4aZldUVZuqy8vsaevm6G0lcXLDwq14EFVcW9xNetMHzR6VZh9_pe5SFTdOe2ZbwSuiaeqedffda7UwR8OoJgAf8-VLSrOfYKAMbR0_dsHHpLeR6JOHCcLduhvX6_qAWt2Oe8K7wcc5SU6g7Ejfn1tNKN92sQ4dHiwO5hBpXMqCeMw0bA==
+Signature generation process completed successfully.
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/{$merchantCode} with headers: {"X-Api-Key":"Wh27QPVOV\/W1R9r+1Pat3vJ5JgvUjwDnQ4nlqdFjoiM=","X-Nonce":"111625020422469863360427","X-Signature":"X1XvkjvIGtWb1zfNO1QWoBO_0Cs3i9xGjuRfGV0rE5ykSiWJNpUNpBBqlS10I8FRX5w9TG-sSXb9rMsrPNEKCMXk4PvDOtm_B6VhwZ0Ot9ryRaj8bLYn7jsJdalpVAFRiear5gkJZBuYKomd2zCtnb6Ce6HXG49Zc8FB-K4aZldUVZuqy8vsaevm6G0lcXLDwq14EFVcW9xNetMHzR6VZh9_pe5SFTdOe2ZbwSuiaeqedffda7UwR8OoJgAf8-VLSrOfYKAMbR0_dsHHpLeR6JOHCcLduhvX6_qAWt2Oe8K7wcc5SU6g7Ejfn1tNKN92sQ4dHiwO5hBpXMqCeMw0bA==","Content-Type":"application\/json","X-Currency-Id":"160","X-Currency-Code":"NGN"}
+Request payload: {"currencyId":"160","currencyCode":"NGN"}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T21:46:33.093Z\",\"sysErr\":-46,\"sysId\":250204214673478251,\"sessionUid\":\"F:TLHEENYMCXOPENCVYRSRVKZHJ\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Generated Nonce: 111625020423069024024601
+Data to Sign: Wh27QPVOV/W1R9r+1Pat3vJ5JgvUjwDnQ4nlqdFjoiM=111625020423069024024601
+Private key path: C:\Users\SOFTWARE DEVELOPER\Desktop\Ringo_Laravel\DigitalEdge\privateKey.pem
+Private Key: -----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAkE/M3B5QuLve08sGkCd2C8H/XJUJgoenS0R1o81NfHQzZqTO
+3EwiX7hMlZIQfspcal6ygXHc6qSh/C3sQxFVLHOLRbphYsH+WZxorAm167v7Y+LZ
+3s92zePX+WgLM5hsqA2Lgll+i6RoqsnCsXtjb7V0QOJee0qC02ARRO5bhbH592s5
+iDeXujnFD49gf0KNYWcHOetKIkb+DXOv1yjAx6Myeg72rjLtKPjmefu1y6GTZH5i
+6UuWTSJIWzNC8D2LJNLHtbdV1l5Ju1hTbrS0CbUFuOCCij0wO2GMwj8ZOith7uy3
+u9RLyIci2wISvQ20kyAyi0D5C4a3W3WIOw+USwIDAQABAoIBAQCEssx2r+2cIS0B
+5ZPQZGjY4PeWw3juLRz5Sic+ix8wTI2jWfLZgayuBgNuGdTPMfcO3KsZ+oCgxugo 
+wnWZKkv+xvSPFpZMQIRJFFjvsTI2ZTIBpGygxHbDVjqXnUOHmyZ21ZWuM+r4LyML
+wOElYIeMBfezXjRw/JAWHCVlFCTWZujIn7ZvzaRzlMdMt/34yC+KQe6CFtoWu5hT
+VxpO4czXh9B1ChboO+SGLjerANeyWHkg9wjIOrwnw8BB6DspJddo4QvR8QJfDxqp
+0inTyUu7xvw3xqV6M0MdCmN0iJvpPmMzINMzgKl9jf5IJ6jyd30pdAyoEd0L9lEl
+Zh9XbDfZAoGBAPTSxsLhsh9R68zlD9lDdowIJ4F/1XyWkI74AyujSH7r4lCIMPsh
+HsASLR0W/Ajs7K3qFQPRFuiiq/sitVrp3PavcTcuUITbv2XZ4aP9fKJTw/5eOgRk
+sDpoFWHyB7DtWRWSyx8JNBOg4r4j7VALqOjSy4SGamIsvBDJNOEN0Uz9AoGBAJbm
+WwBzXbY4RVvu+kBaBWUe36y5T3yDBKpqnpix/dVVCWAkYe+HGkgW3Xe5wApzCPEl
+TAxbxeNAuoieSSHw7/dR+u7cb3w51ouEdj2jJ37PCBu+6LkUmh6PAPmHIOdUfOkh
+wA9YI4j0vXHhFO8rYPc69DgKqhLVUAsI2Be9OEznAoGAQQLzqu55+V0sq6UsFzqV
+8Ut9CiNjEol866oqVV0vtBx5ZX802osJ+mEZP79JwCkCFJCzcecFGVORLcgitnih
+p5QhEVEoKo+b/LTl+UEn5oct5Y8qAt6l+WyIOREnP7FXVaY8cApmnMu9SlaJ/xaJ
+jQHk71UuTNGqQx7a/uRHbxUCgYAUFSAzVSc5ow+IBqwDeHeTV6KJCDiN55ntXDcz
+Ny0DAUg4JV9rU12qDnD3CB+IxHqCLWaLloMllW291OMCw2AMWDq/I1MrAz+MXdqm
+pVoSRFdd6fBrAVTpkDqe+t7kKphdJoK7CA3ioj+8MippEirbfFsYQkMUMpNuhITN
+0/70LQKBgQCNutxM7G5UAeulp5YqN6Yt/HO3gzp8Jl8Jm+FbHvdCFdasDEvSIRX+
+gFyeMfCQdl+gSHvL2eyctTEvuD+vS3p1opHDO8tsEiLG8wYj5N5tNHReAKgwf4sn
+I2sYez14Ii37K7ZtXYLvBRdi3vaIoOvvaJQL1d4emDB7KvhE87MhmQ==
+-----END RSA PRIVATE KEY-----
+
+Base64 URL-safe Encoded Signature: aJezp9IlYxegKF5u5RI8tP1BlaHYNaHyh6MVlc8whBiV26SrxCAje8G2yxZ-Y04d5vnTrgTDaPHvhla-tLU22CJjMAklJl_SdK4x9SGqzvE39b3UhDwPZaxnxSc5TOMGEhWHXC5UCsAkFZ7vMA9S6FnsPhh4cm_qwIIwababgAn68O6a4-d2NqW4J6CU3U7YwaQUsiIqI2winWrW6eW8JAI4BmsriJ1auG221Q_2zJWv8bBaOm6kSbyxrBuyxQcN7WJJ0k2uoMukjVj2gdfUReDYLj5NUaqAPDfQal95upGeDJbxCgOMIoiZYM-OIoXbMAC-rVx6B1kDKFsK31yD0g==
+Generated Signature (Base64): aJezp9IlYxegKF5u5RI8tP1BlaHYNaHyh6MVlc8whBiV26SrxCAje8G2yxZ-Y04d5vnTrgTDaPHvhla-tLU22CJjMAklJl_SdK4x9SGqzvE39b3UhDwPZaxnxSc5TOMGEhWHXC5UCsAkFZ7vMA9S6FnsPhh4cm_qwIIwababgAn68O6a4-d2NqW4J6CU3U7YwaQUsiIqI2winWrW6eW8JAI4BmsriJ1auG221Q_2zJWv8bBaOm6kSbyxrBuyxQcN7WJJ0k2uoMukjVj2gdfUReDYLj5NUaqAPDfQal95upGeDJbxCgOMIoiZYM-OIoXbMAC-rVx6B1kDKFsK31yD0g==
+Signature generation process completed successfully.
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/{$merchantCode} with headers: {"X-Api-Key":"Wh27QPVOV\/W1R9r+1Pat3vJ5JgvUjwDnQ4nlqdFjoiM=","X-Nonce":"111625020423069024024601","X-Signature":"aJezp9IlYxegKF5u5RI8tP1BlaHYNaHyh6MVlc8whBiV26SrxCAje8G2yxZ-Y04d5vnTrgTDaPHvhla-tLU22CJjMAklJl_SdK4x9SGqzvE39b3UhDwPZaxnxSc5TOMGEhWHXC5UCsAkFZ7vMA9S6FnsPhh4cm_qwIIwababgAn68O6a4-d2NqW4J6CU3U7YwaQUsiIqI2winWrW6eW8JAI4BmsriJ1auG221Q_2zJWv8bBaOm6kSbyxrBuyxQcN7WJJ0k2uoMukjVj2gdfUReDYLj5NUaqAPDfQal95upGeDJbxCgOMIoiZYM-OIoXbMAC-rVx6B1kDKFsK31yD0g==","Content-Type":"application\/json","X-Currency-Id":"160","X-Currency-Code":"NGN"}
+Request payload: {"currencyId":"160","currencyCode":"NGN"}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T22:06:46.385Z\",\"sysErr\":-46,\"sysId\":250204220634648636,\"sessionUid\":\"F:XOBFHDCBJBCPGCSPCTJPPSCDJ\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Generated Nonce: 111625020423139615937151
+Data to Sign (Exact): Wh27QPVOV/W1R9r+1Pat3vJ5JgvUjwDnQ4nlqdFjoiM=111625020423139615937151
+Private key path: C:\Users\SOFTWARE DEVELOPER\Desktop\Ringo_Laravel\DigitalEdge\privateKey.pem
+Private Key Length: 1707
+Private Key (first 100 chars): -----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAkE/M3B5QuLve08sGkCd2C8H/XJUJgoenS0R1o81NfHQzZqTO
+3
+Base64 URL-safe Encoded Signature: RwXK6bhMWlSMZ4OyHUn52Ril2L5cwtb2SRQf86y20YSHB_nieFj2J2sJRMzySI5GJCQDqQApo4MEyNY17s1Z2sTesZA3cm9vZxY70Jxz705i6d9yr9J7YoXbVhXgBZ0iEpB0LMwdPKyXZyFJGJG6DLc5UxNQO1B9fRMvULAzFgJD__ceHEf2zHRi1cJv_HM3S6v-vTQneONS6Yk-LPRW78vfbD3OnA8L-hOkhh_QCaBbHOYB79F0TcC63w-wA_IkHQfC1SomRgzL7Z1Bcp-ikJDK32CGIR0mTQshmcUuF_PWgEm2NG_UcUSYOrwvpv4hJ_U-FNqcq3_Mn6PiAQROgw==
+Generated Signature (Base64): RwXK6bhMWlSMZ4OyHUn52Ril2L5cwtb2SRQf86y20YSHB_nieFj2J2sJRMzySI5GJCQDqQApo4MEyNY17s1Z2sTesZA3cm9vZxY70Jxz705i6d9yr9J7YoXbVhXgBZ0iEpB0LMwdPKyXZyFJGJG6DLc5UxNQO1B9fRMvULAzFgJD__ceHEf2zHRi1cJv_HM3S6v-vTQneONS6Yk-LPRW78vfbD3OnA8L-hOkhh_QCaBbHOYB79F0TcC63w-wA_IkHQfC1SomRgzL7Z1Bcp-ikJDK32CGIR0mTQshmcUuF_PWgEm2NG_UcUSYOrwvpv4hJ_U-FNqcq3_Mn6PiAQROgw==
+Signature generation process completed successfully.
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/{$merchantCode} with headers: {"X-Api-Key":"Wh27QPVOV\/W1R9r+1Pat3vJ5JgvUjwDnQ4nlqdFjoiM=","X-Nonce":"111625020423139615937151","X-Signature":"RwXK6bhMWlSMZ4OyHUn52Ril2L5cwtb2SRQf86y20YSHB_nieFj2J2sJRMzySI5GJCQDqQApo4MEyNY17s1Z2sTesZA3cm9vZxY70Jxz705i6d9yr9J7YoXbVhXgBZ0iEpB0LMwdPKyXZyFJGJG6DLc5UxNQO1B9fRMvULAzFgJD__ceHEf2zHRi1cJv_HM3S6v-vTQneONS6Yk-LPRW78vfbD3OnA8L-hOkhh_QCaBbHOYB79F0TcC63w-wA_IkHQfC1SomRgzL7Z1Bcp-ikJDK32CGIR0mTQshmcUuF_PWgEm2NG_UcUSYOrwvpv4hJ_U-FNqcq3_Mn6PiAQROgw==","Content-Type":"application\/json","X-Currency-Id":"160","X-Currency-Code":"NGN"}
+Request payload: {"currencyId":"160","currencyCode":"NGN"}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T22:13:57.160Z\",\"sysErr\":-46,\"sysId\":250204221378211357,\"sessionUid\":\"F:EZUEEVMHWCEPHBCPWKIGJZSAJ\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Generated Nonce: 111625020423193306798319
+Data to Sign (Exact): Wh27QPVOV/W1R9r+1Pat3vJ5JgvUjwDnQ4nlqdFjoiM=111625020423193306798319
+Private key path: C:\Users\SOFTWARE DEVELOPER\Desktop\Ringo_Laravel\DigitalEdge\privateKey.pem
+Private Key Length: 1707
+Private Key (first 100 chars): -----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAkE/M3B5QuLve08sGkCd2C8H/XJUJgoenS0R1o81NfHQzZqTO
+3
+Base64 URL-safe Encoded Signature: Y2S65q73KtFT8uPFkfCxQT0U_6VSjhTM_voJ8wXFg3uQXODriJ24Mfe1jBJY2CaD6MgkKgtwPvsfTF6x72Mx3RVnaYiuJH0-o_TtPmpt6M7mI0vEIfEc54I2wQ82GaPN9SWaRWaJaaNOzIUZRRDJGpr8V3een97_BjA7pmWsay-vRAY7z0OR0a1rAiwRSN3cuLv2InCsEY3nJhi1kixVvxt94YkLREGZ66urBr91I_gvBDtzemX_wE4BwrmCklJRo52QKa0t5pO8H324lRFjHcWvH655QxcGiwZ1kBsXAFbvOfcwBR_7YkBBv2wvVtfIwbJsB6DsIyFKBAhYNdv_kw==
+Generated Signature (Base64): Y2S65q73KtFT8uPFkfCxQT0U_6VSjhTM_voJ8wXFg3uQXODriJ24Mfe1jBJY2CaD6MgkKgtwPvsfTF6x72Mx3RVnaYiuJH0-o_TtPmpt6M7mI0vEIfEc54I2wQ82GaPN9SWaRWaJaaNOzIUZRRDJGpr8V3een97_BjA7pmWsay-vRAY7z0OR0a1rAiwRSN3cuLv2InCsEY3nJhi1kixVvxt94YkLREGZ66urBr91I_gvBDtzemX_wE4BwrmCklJRo52QKa0t5pO8H324lRFjHcWvH655QxcGiwZ1kBsXAFbvOfcwBR_7YkBBv2wvVtfIwbJsB6DsIyFKBAhYNdv_kw==
+Signature generation process completed successfully.
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/{$merchantCode} with headers: {"X-Api-Key":"Wh27QPVOV\/W1R9r+1Pat3vJ5JgvUjwDnQ4nlqdFjoiM=","X-Nonce":"111625020423193306798319","X-Signature":"Y2S65q73KtFT8uPFkfCxQT0U_6VSjhTM_voJ8wXFg3uQXODriJ24Mfe1jBJY2CaD6MgkKgtwPvsfTF6x72Mx3RVnaYiuJH0-o_TtPmpt6M7mI0vEIfEc54I2wQ82GaPN9SWaRWaJaaNOzIUZRRDJGpr8V3een97_BjA7pmWsay-vRAY7z0OR0a1rAiwRSN3cuLv2InCsEY3nJhi1kixVvxt94YkLREGZ66urBr91I_gvBDtzemX_wE4BwrmCklJRo52QKa0t5pO8H324lRFjHcWvH655QxcGiwZ1kBsXAFbvOfcwBR_7YkBBv2wvVtfIwbJsB6DsIyFKBAhYNdv_kw==","Content-Type":"application\/json","X-Currency-Id":"160","X-Currency-Code":"NGN"}
+Request payload: {"currencyId":"160","currencyCode":"NGN"}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T22:19:59.012Z\",\"sysErr\":-46,\"sysId\":250204221936825012,\"sessionUid\":\"F:JFWTTEHKBWSVKRWDCMXNXSYDK\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Generated Nonce: 111625020423202048181404
+Data to Sign (Exact): Wh27QPVOV/W1R9r+1Pat3vJ5JgvUjwDnQ4nlqdFjoiM=111625020423202048181404
+Private key path: C:\Users\SOFTWARE DEVELOPER\Desktop\Ringo_Laravel\DigitalEdge\privateKey.pem
+Private Key Length: 1707
+Private Key (first 100 chars): -----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAkE/M3B5QuLve08sGkCd2C8H/XJUJgoenS0R1o81NfHQzZqTO
+3
+Base64 URL-safe Encoded Signature: BIq6kelT5M_Mj_DwrjubmaYpI86bUiQP4hzIhCvE_Z94CFPFS2fyJEMSgJV8rYHmVWogB_JFuK43me1iwedWv3HEDmNSFexGCUUxYqWvRYVL10dzbNE9s5SM5HdelYNpaOom7WN4Dq8eaciyOsQsQN98xDGvLJGumDQCBN9tZr3vaB1e7HlOXW3Bv4dinw0FgYgc_5-o_-jfTDTE9h9e2-IwoS0hFVrq8P2S8AMFT5pCDfM3qRFKgwA3RIr4QCjJtovJAA97hHiWHcUbC2HAYpm0QqYA3EUB4voV-K3EVRqguk6RcATJ3jVK2chYwwTYs4ZFDKU7EWFS7RCykcX2jA==
+Generated Signature (Base64): BIq6kelT5M_Mj_DwrjubmaYpI86bUiQP4hzIhCvE_Z94CFPFS2fyJEMSgJV8rYHmVWogB_JFuK43me1iwedWv3HEDmNSFexGCUUxYqWvRYVL10dzbNE9s5SM5HdelYNpaOom7WN4Dq8eaciyOsQsQN98xDGvLJGumDQCBN9tZr3vaB1e7HlOXW3Bv4dinw0FgYgc_5-o_-jfTDTE9h9e2-IwoS0hFVrq8P2S8AMFT5pCDfM3qRFKgwA3RIr4QCjJtovJAA97hHiWHcUbC2HAYpm0QqYA3EUB4voV-K3EVRqguk6RcATJ3jVK2chYwwTYs4ZFDKU7EWFS7RCykcX2jA==
+Signature generation process completed successfully.
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/{$merchantCode} with headers: {"X-Api-Key":"Wh27QPVOV\/W1R9r+1Pat3vJ5JgvUjwDnQ4nlqdFjoiM=","X-Nonce":"111625020423202048181404","X-Signature":"BIq6kelT5M_Mj_DwrjubmaYpI86bUiQP4hzIhCvE_Z94CFPFS2fyJEMSgJV8rYHmVWogB_JFuK43me1iwedWv3HEDmNSFexGCUUxYqWvRYVL10dzbNE9s5SM5HdelYNpaOom7WN4Dq8eaciyOsQsQN98xDGvLJGumDQCBN9tZr3vaB1e7HlOXW3Bv4dinw0FgYgc_5-o_-jfTDTE9h9e2-IwoS0hFVrq8P2S8AMFT5pCDfM3qRFKgwA3RIr4QCjJtovJAA97hHiWHcUbC2HAYpm0QqYA3EUB4voV-K3EVRqguk6RcATJ3jVK2chYwwTYs4ZFDKU7EWFS7RCykcX2jA==","Content-Type":"application\/json","X-Currency-Id":"160","X-Currency-Code":"NGN"}
+Request payload: {"currencyId":"160","currencyCode":"NGN"}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T22:20:24.044Z\",\"sysErr\":-46,\"sysId\":250204222012286448,\"sessionUid\":\"F:PXBNJAUQRHMDPFGCEFSPIYQUH\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}
+Generated Nonce: 111625020423232826879499
+Nonce length is valid: 24
+Nonce is numeric: 111625020423232826879499
+Data to Sign (Exact): Wh27QPVOV/W1R9r+1Pat3vJ5JgvUjwDnQ4nlqdFjoiM=111625020423232826879499
+Private key path: C:\Users\SOFTWARE DEVELOPER\Desktop\Ringo_Laravel\DigitalEdge\privateKey.pem
+Private Key Length: 1707
+Private Key (first 100 chars): -----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAkE/M3B5QuLve08sGkCd2C8H/XJUJgoenS0R1o81NfHQzZqTO
+3
+Base64 URL-safe Encoded Signature: Xx4jfOUya3Tnf5Gl2mNb5ofHjf-Aeq3JSkcXlGXiPTdVAHwpIMXt9ZtvFC27tD7CC4fRRHAQN5XonGOEhpP9O3wtWjdhyZqr-rraiYAf7R4qVftOluVyLODolN87mer79kZuK619MM-4S8YBhhNO5FskLKknIEEmbJPAtUApwsogLnmXWsbuKZ4ZzoD_lWmi609-CK_98Fhy72W-ytz_qKsNowLosdSW07-Tkh4QlpXDOCdJv7Pfdgh1Z0diHp_CiYGERetYEgzBwX9bIIj1_2wJlyCN8p_KT_rwTkvLvl_Q1YrEyO0RpjoXipUTbD4f1wi92tuU7jbUQWqVgHZvdQ==
+Generated Signature (Base64): Xx4jfOUya3Tnf5Gl2mNb5ofHjf-Aeq3JSkcXlGXiPTdVAHwpIMXt9ZtvFC27tD7CC4fRRHAQN5XonGOEhpP9O3wtWjdhyZqr-rraiYAf7R4qVftOluVyLODolN87mer79kZuK619MM-4S8YBhhNO5FskLKknIEEmbJPAtUApwsogLnmXWsbuKZ4ZzoD_lWmi609-CK_98Fhy72W-ytz_qKsNowLosdSW07-Tkh4QlpXDOCdJv7Pfdgh1Z0diHp_CiYGERetYEgzBwX9bIIj1_2wJlyCN8p_KT_rwTkvLvl_Q1YrEyO0RpjoXipUTbD4f1wi92tuU7jbUQWqVgHZvdQ==
+Signature generation process completed successfully.
+Making GET request to https://sandboxapi.vendifydigital.com/api/v1/Product/Merchant/{$merchantCode} with headers: {"X-Api-Key":"Wh27QPVOV\/W1R9r+1Pat3vJ5JgvUjwDnQ4nlqdFjoiM=","X-Nonce":"111625020423232826879499","X-Signature":"Xx4jfOUya3Tnf5Gl2mNb5ofHjf-Aeq3JSkcXlGXiPTdVAHwpIMXt9ZtvFC27tD7CC4fRRHAQN5XonGOEhpP9O3wtWjdhyZqr-rraiYAf7R4qVftOluVyLODolN87mer79kZuK619MM-4S8YBhhNO5FskLKknIEEmbJPAtUApwsogLnmXWsbuKZ4ZzoD_lWmi609-CK_98Fhy72W-ytz_qKsNowLosdSW07-Tkh4QlpXDOCdJv7Pfdgh1Z0diHp_CiYGERetYEgzBwX9bIIj1_2wJlyCN8p_KT_rwTkvLvl_Q1YrEyO0RpjoXipUTbD4f1wi92tuU7jbUQWqVgHZvdQ==","Content-Type":"application\/json","X-Currency-Id":"160","X-Currency-Code":"NGN"}
+Request payload: {"currencyId":"160","currencyCode":"NGN"}
+Response: {"statusCode":200,"body":"{\"authenticated\":false,\"sysDate\":\"2025-02-04T22:23:44.626Z\",\"sysErr\":-46,\"sysId\":250204222368512023,\"sessionUid\":\"F:DEJGZTNCRIULLMQJHHJRGGOIH\",\"requestStatus\":\"NOT_PROCESSED\",\"message\":\"Invalid API key and\/or Signature Key: Please ensure you have generated your API Key and Signature Key pair.\",\"response\":null}"}

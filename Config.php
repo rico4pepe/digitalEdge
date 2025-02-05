@@ -10,8 +10,9 @@ class Config
         $this->settings = [
             'api' => [
                 'baseUrl' => 'https://sandboxapi.vendifydigital.com',
-                'apiKey' => 'q7H9m6bX/7eXs5KoXhH2QlffyfTWfOy9HoixzCwZHng=',
-                'privateKeyPath' => 'privatekey.pem',
+                'apiKey' => 'Wh27QPVOV/W1R9r+1Pat3vJ5JgvUjwDnQ4nlqdFjoiM=',
+                'privateKeyPath' => realpath(__DIR__ . '/privateKey.pem'),
+
                 'currencyId' => null, // Optional
                 'currencyCode' => null, // Optional
             ]
