@@ -2,67 +2,58 @@
 
 class UtilityValidationService
 {
-    private $apiClient;
-    private $logger;
-    private $config;
-
-    public function __construct(ApiClient $apiClient, Logger $logger, Config $config)
+    /**
+     * Sanitize and validate input data.
+     *
+     * @param array $data
+     * @return array
+     */
+    public function sanitizeAndValidate(array $data): array
     {
-        $this->apiClient = $apiClient;
-        $this->logger = $logger;
-        $this->config = $config;
-    }
+        $sanitizedData = [];
+        $errors = [];
 
-    public function validateAccountId(array $requestData, string $endpoint): string
-    {
-        // Dynamically process the JSON body and sanitize it
-        $sanitizedData = $this->sanitizeData($requestData);
-
-        // Handle currency headers separately
-        $currencyId = $sanitizedData['currencyId'] ?? null;
-        $currencyCode = $sanitizedData['currencyCode'] ?? null;
-
-        // Prepare the dynamic request body
-        $requestData = $this->removeCurrencyFromBody($sanitizedData);
-
-        // Handle placeholders dynamically
-        $endpointWithPlaceholders = $this->handlePlaceholdersInEndpoint($endpoint, $sanitizedData);
-
-        // Send the request to the API client
-        return $this->apiClient->request('POST', $endpointWithPlaceholders, $requestData, $currencyId, $currencyCode);
-    }
-
-    private function sanitizeData(array $data): array
-    {
-        // Sanitize inputs (you can expand this with more sanitization logic)
-        return [
-            'serviceCode' => filter_var($data['serviceCode'], FILTER_SANITIZE_STRING),
-            'uniqueAccountId' => filter_var($data['uniqueAccountId'], FILTER_SANITIZE_STRING),
-            'brandCode' => filter_var($data['brandCode'], FILTER_SANITIZE_STRING),
-            'currencyId' => $data['currencyId'] ?? null,
-            'currencyCode' => $data['currencyCode'] ?? null
+        // Define required fields and their validation rules
+        $rules = [
+            'serviceCode' => ['required' => true, 'type' => 'string'],
+            'uniqueAccountId' => ['required' => true, 'type' => 'string'],
+            'brandCode' => ['required' => true, 'type' => 'string'],
+            'currencyCode' => ['required' => true, 'type' => 'string', 'length' => 3], // ISO 4217 (e.g., NGN, USD)
+            'countryCode' => ['required' => true, 'type' => 'numeric', 'length' => 2] // Typically 2-3 digit country codes
         ];
-    }
 
-    private function removeCurrencyFromBody(array $data): array
-    {
-        // Remove currency data from the request body, as it's sent in headers
-        unset($data['currencyId']);
-        unset($data['currencyCode']);
-        return $data;
-    }
+        // Loop through rules to sanitize and validate data
+        foreach ($rules as $field => $rule) {
+            if (!isset($data[$field])) {
+                if ($rule['required']) {
+                    $errors[$field] = "{$field} is required.";
+                }
+                continue;
+            }
 
-    private function handlePlaceholdersInEndpoint(string $endpoint, array &$data): string
-    {
-        // Check for placeholders in the endpoint and replace them dynamically
-        // Example: /api/v1/validations/{serviceCode}/{uniqueAccountId}
-        foreach ($data as $key => $value) {
-            $placeholder = "{" . $key . "}";
-            if (strpos($endpoint, $placeholder) !== false) {
-                $endpoint = str_replace($placeholder, $value, $endpoint);
-                unset($data[$key]); // Remove the replaced key from data
+            $value = trim($data[$field]); // Sanitize: Trim whitespace
+            $sanitizedData[$field] = $value;
+
+            // Type validation
+            if ($rule['type'] === 'string' && !is_string($value)) {
+                $errors[$field] = "{$field} must be a string.";
+            } elseif ($rule['type'] === 'numeric' && !ctype_digit($value)) {
+                $errors[$field] = "{$field} must be a numeric value.";
+            }
+
+            // Length validation (if applicable)
+            if (isset($rule['length']) && strlen($value) !== $rule['length']) {
+                $errors[$field] = "{$field} must be exactly {$rule['length']} characters long.";
             }
         }
-        return $endpoint;
+
+        if (!empty($errors)) {
+            return ['success' => false, 'errors' => $errors];
+        }
+
+        return ['success' => true, 'data' => $sanitizedData];
     }
 }
+
+
+?>
