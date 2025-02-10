@@ -8,6 +8,8 @@ class UtilityValidationService
      * @param array $data
      * @return array
      */
+
+     private Logger $logger;
     public function sanitizeAndValidate(array $data): array
     {
         $sanitizedData = [];
